@@ -1,0 +1,796 @@
+
+
+Started POST "/todo_lists" for 127.0.0.1 at 2015-03-30 18:03:26 -0700
+
+ActionController::RoutingError (No route matches [POST] "/todo_lists"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.1ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.0ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (89.3ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (63.6ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (143.2ms)
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 18:03:30 -0700
+
+ActionController::RoutingError (No route matches [GET] "/todo_lists"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (64.8ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (58.7ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (133.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-30 18:03:32 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.7ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-30 18:03:33 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateTodoLists (20150331014756)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "todo_lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150331014756"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:14:17 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TodoListsController#index as HTML
+  [1m[35mTodoList Load (0.4ms)[0m  SELECT "todo_lists".* FROM "todo_lists"
+  Rendered todo_lists/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1240ms (Views: 1228.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-03-30 19:14:19 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-30 19:14:19 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-30 19:14:19 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-03-30 19:14:19 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-30 19:14:19 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:14:19 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-30 19:14:19 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-03-30 19:14:19 -0700
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:14:21 -0700
+Processing by TodoListsController#index as HTML
+  [1m[36mTodoList Load (0.2ms)[0m  [1mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:14:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-30 19:14:23 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.7ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-30 19:14:23 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2015-03-30 19:14:27 -0700
+Processing by Rails::InfoController#properties as */*
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  Rendered /Users/coltonhagan/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/templates/rails/info/properties.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 40.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:14:35 -0700
+Processing by TodoListsController#index as HTML
+  [1m[36mTodoList Load (0.2ms)[0m  [1mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/todo_lists/new" for 127.0.0.1 at 2015-03-30 19:14:36 -0700
+Processing by TodoListsController#new as HTML
+  Rendered todo_lists/_form.html.erb (25.9ms)
+  Rendered todo_lists/new.html.erb within layouts/application (31.8ms)
+Completed 200 OK in 79ms (Views: 74.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/todo_lists" for 127.0.0.1 at 2015-03-30 19:14:46 -0700
+Processing by TodoListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uWjTO1mRpEijg76WnZL/bGsPsuuHyWp2X/mf9iAx82F/cFYOgwDYjlhy49KU60V35KVU6Vy7Hgc4vgMgyoAALw==", "todo_list"=>{"title"=>"This", "description"=>"Should work!"}, "commit"=>"Create Todo list"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "todo_lists" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "This"], ["description", "Should work!"], ["created_at", "2015-03-31 02:14:46.660842"], ["updated_at", "2015-03-31 02:14:46.660842"]]
+  [1m[35m (2.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/todo_lists/1
+Completed 302 Found in 10ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/todo_lists/1" for 127.0.0.1 at 2015-03-30 19:14:46 -0700
+Processing by TodoListsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTodoList Load (0.3ms)[0m  [1mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered todo_lists/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 57ms (Views: 46.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-03-30 19:14:46 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-30 19:14:46 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-03-30 19:14:46 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-30 19:14:46 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:14:46 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-30 19:14:46 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-30 19:14:46 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-03-30 19:14:46 -0700
+
+
+Started GET "/todo_lists/1/edit" for 127.0.0.1 at 2015-03-30 19:15:00 -0700
+Processing by TodoListsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTodoList Load (0.1ms)[0m  SELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered todo_lists/_form.html.erb (1.7ms)
+  Rendered todo_lists/edit.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/todo_lists/1" for 127.0.0.1 at 2015-03-30 19:15:03 -0700
+Processing by TodoListsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fCXTTLm3mFuvYsiSaj3AKLwLHo9O+O5mNN4GStNRB966PVZ5YybknVSTldZjRHozM6H4jZWKmhdTmZqcOeD0kA==", "todo_list"=>{"title"=>"This", "description"=>"Should work!!!"}, "commit"=>"Update Todo list", "id"=>"1"}
+  [1m[36mTodoList Load (0.1ms)[0m  [1mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todo_lists" SET "description" = ?, "updated_at" = ? WHERE "todo_lists"."id" = ?[0m  [["description", "Should work!!!"], ["updated_at", "2015-03-31 02:15:03.459993"], ["id", 1]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/todo_lists/1
+Completed 302 Found in 5ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/todo_lists/1" for 127.0.0.1 at 2015-03-30 19:15:03 -0700
+Processing by TodoListsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTodoList Load (0.1ms)[0m  [1mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered todo_lists/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-03-30 19:15:03 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-03-30 19:15:03 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-30 19:15:03 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:15:03 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-30 19:15:03 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-30 19:15:03 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-30 19:15:03 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-03-30 19:15:03 -0700
+
+
+Started GET "/todo_lists/1/edit" for 127.0.0.1 at 2015-03-30 19:15:07 -0700
+Processing by TodoListsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTodoList Load (0.1ms)[0m  SELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered todo_lists/_form.html.erb (1.7ms)
+  Rendered todo_lists/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/todo_lists/1" for 127.0.0.1 at 2015-03-30 19:15:10 -0700
+Processing by TodoListsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTodoList Load (0.1ms)[0m  [1mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered todo_lists/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:15:12 -0700
+Processing by TodoListsController#index as HTML
+  [1m[35mTodoList Load (0.1ms)[0m  SELECT "todo_lists".* FROM "todo_lists"
+  Rendered todo_lists/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/todo_lists/1" for 127.0.0.1 at 2015-03-30 19:15:15 -0700
+Processing by TodoListsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Py5YXYwVy+EHfo1Ibpdg/arrSG/22pGvTF6qgWxhyID5Nt1oVoS3J/yP0Axn7trmJUGubS2o5d4rGTZXhtA7zg==", "id"=>"1"}
+  [1m[36mTodoList Load (0.1ms)[0m  [1mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mDELETE FROM "todo_lists" WHERE "todo_lists"."id" = ?[0m  [["id", 1]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/todo_lists
+Completed 302 Found in 9ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:15:15 -0700
+Processing by TodoListsController#index as HTML
+  [1m[36mTodoList Load (0.2ms)[0m  [1mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-03-30 19:15:15 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-30 19:15:15 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-03-30 19:15:15 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:15:15 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-30 19:15:15 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-30 19:15:15 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-30 19:15:15 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-03-30 19:15:15 -0700
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:16:36 -0700
+Processing by TodoListsController#index as HTML
+  [1m[35mTodoList Load (0.3ms)[0m  SELECT "todo_lists".* FROM "todo_lists"
+  Rendered todo_lists/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:16:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-30 19:16:37 -0700
+Processing by TodoListsController#index as HTML
+  [1m[36mTodoList Load (0.1ms)[0m  [1mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:16:37 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-30 19:16:38 -0700
+Processing by TodoListsController#index as HTML
+  [1m[35mTodoList Load (0.1ms)[0m  SELECT "todo_lists".* FROM "todo_lists"
+  Rendered todo_lists/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-03-30 19:16:38 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:16:38 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-03-30 19:16:38 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-30 19:16:38 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-30 19:16:38 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-30 19:16:38 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-30 19:16:38 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-03-30 19:16:38 -0700
+
+
+Started GET "/todo_lists/new" for 127.0.0.1 at 2015-03-30 19:16:44 -0700
+Processing by TodoListsController#new as HTML
+  Rendered todo_lists/_form.html.erb (2.1ms)
+  Rendered todo_lists/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 53ms (Views: 49.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/todo_lists" for 127.0.0.1 at 2015-03-30 19:16:57 -0700
+Processing by TodoListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HWus+/A6gQcs6kxdteL5rr/wGmAkCTQMC/bEL8PIeybbcynOKqv9wdcbERm8m0O1MFr8Yv97QH1ssVj5KXmIaA==", "todo_list"=>{"title"=>"what", "description"=>"if i do this?"}, "commit"=>"Create Todo list"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todo_lists" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "what"], ["description", "if i do this?"], ["created_at", "2015-03-31 02:16:57.601689"], ["updated_at", "2015-03-31 02:16:57.601689"]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/todo_lists/2
+Completed 302 Found in 5ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/todo_lists/2" for 127.0.0.1 at 2015-03-30 19:16:57 -0700
+Processing by TodoListsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTodoList Load (0.2ms)[0m  SELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered todo_lists/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-03-30 19:16:57 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:16:57 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-03-30 19:16:57 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-30 19:16:57 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-30 19:16:57 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-30 19:16:57 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-30 19:16:57 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-03-30 19:16:57 -0700
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:16:59 -0700
+Processing by TodoListsController#index as HTML
+  [1m[36mTodoList Load (0.2ms)[0m  [1mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/todo_lists/new" for 127.0.0.1 at 2015-03-30 19:17:00 -0700
+Processing by TodoListsController#new as HTML
+  Rendered todo_lists/_form.html.erb (1.4ms)
+  Rendered todo_lists/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/todo_lists" for 127.0.0.1 at 2015-03-30 19:17:07 -0700
+Processing by TodoListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2rQJcVbFxvtmbdpETBZk8J3y2I8Yi8mHclkNQ1I1RlUcrIxEjFS6PZ2chwBFb97rElg+jcP5vfYVHpGVuIS1Gw==", "todo_list"=>{"title"=>"and", "description"=>"this?"}, "commit"=>"Create Todo list"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "todo_lists" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "and"], ["description", "this?"], ["created_at", "2015-03-31 02:17:07.154185"], ["updated_at", "2015-03-31 02:17:07.154185"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/todo_lists/3
+Completed 302 Found in 5ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/todo_lists/3" for 127.0.0.1 at 2015-03-30 19:17:07 -0700
+Processing by TodoListsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodoList Load (0.1ms)[0m  [1mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered todo_lists/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-03-30 19:17:07 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:17:07 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-03-30 19:17:07 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:07 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:07 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:07 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:07 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:07 -0700
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:17:16 -0700
+Processing by TodoListsController#index as HTML
+  [1m[35mTodoList Load (0.2ms)[0m  SELECT "todo_lists".* FROM "todo_lists"
+  Rendered todo_lists/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/todo_lists/3" for 127.0.0.1 at 2015-03-30 19:17:23 -0700
+Processing by TodoListsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"k+bgJz7hfk4ZqPV1Fz0u9H5YH/DxSdxXzF5mqSmN5k1V/mUS5HACiOJZqDEeRJTv8fL58io7qCarGfp/wzwVAw==", "id"=>"3"}
+  [1m[36mTodoList Load (0.1ms)[0m  [1mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "todo_lists" WHERE "todo_lists"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/todo_lists
+Completed 302 Found in 4ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:17:23 -0700
+Processing by TodoListsController#index as HTML
+  [1m[36mTodoList Load (0.2ms)[0m  [1mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-03-30 19:17:23 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:17:23 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-03-30 19:17:23 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:23 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:23 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:23 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:23 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:23 -0700
+
+
+Started DELETE "/todo_lists/2" for 127.0.0.1 at 2015-03-30 19:17:26 -0700
+Processing by TodoListsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Pp0xK6MXZieWzgf2Ffrms3cPp70er/Wdo3/Z1WrEJV74hbQeeYYa4W0/WrIcg1yo+KVBv8XdgezEOEUDgHXWEA==", "id"=>"2"}
+  [1m[35mTodoList Load (0.1ms)[0m  SELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todo_lists" WHERE "todo_lists"."id" = ?  [["id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/todo_lists
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:17:26 -0700
+Processing by TodoListsController#index as HTML
+  [1m[35mTodoList Load (0.2ms)[0m  SELECT "todo_lists".* FROM "todo_lists"
+  Rendered todo_lists/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-03-30 19:17:26 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:17:26 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:26 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:26 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-03-30 19:17:26 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:26 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:26 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-03-30 19:17:26 -0700
+
+
+Started GET "/todo_lists" for fe80::1%lo0 at 2015-03-30 19:23:43 -0700
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:24:24 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TodoListsController#index as HTML
+  [1m[35mTodoList Load (0.4ms)[0m  SELECT "todo_lists".* FROM "todo_lists"
+  Rendered todo_lists/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 98ms (Views: 88.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:24:25 -0700
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-03-30 19:26:01 -0700
+Processing by TodoListsController#index as HTML
+  [1m[36mTodoList Load (0.1ms)[0m  [1mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-03-30 19:26:01 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-30 19:26:01 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-03-30 19:26:01 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-30 19:26:01 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-30 19:26:01 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-30 19:26:01 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-30 19:26:01 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-03-30 19:26:01 -0700
+
+
+Started GET "/todo_lists/new" for 127.0.0.1 at 2015-03-30 19:26:02 -0700
+Processing by TodoListsController#new as HTML
+  Rendered todo_lists/_form.html.erb (16.0ms)
+  Rendered todo_lists/new.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 69ms (Views: 64.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-01 19:37:04 -0700
+Processing by TodoListsController#index as HTML
+  [1m[35mTodoList Load (0.9ms)[0m  SELECT "todo_lists".* FROM "todo_lists"
+  Rendered todo_lists/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 85ms (Views: 78.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-01 19:37:04 -0700
+
+
+Started GET "/todo_lists/new" for 127.0.0.1 at 2015-04-01 19:37:06 -0700
+Processing by TodoListsController#new as HTML
+  Rendered todo_lists/_form.html.erb (6.8ms)
+  Rendered todo_lists/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 69ms (Views: 63.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/todo_lists" for 127.0.0.1 at 2015-04-01 19:37:11 -0700
+Processing by TodoListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/TMQ8J00FV2IqoSkbmlh6G76FZwYV/zrqBkck1OCQkWniYYrM/uPy9WsmZhrkSxOn8RVCt+ucPFIJzgRomINvQ==", "todo_list"=>{"title"=>"", "description"=>"Hey!"}, "commit"=>"Create Todo list"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered todo_lists/_form.html.erb (3.6ms)
+  Rendered todo_lists/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 67ms (Views: 60.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/todo_lists" for 127.0.0.1 at 2015-04-01 19:37:16 -0700
+Processing by TodoListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4SThhwoJBpSJojgiM7Fyz0z8vHyQh66bnInOxPcBagG7nndcpMacAtSkJR42ST9pvcL86ld+IoF8t+pGBuEl+Q==", "todo_list"=>{"title"=>"Hey", "description"=>"Hey!"}, "commit"=>"Create Todo list"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "todo_lists" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "Hey"], ["description", "Hey!"], ["created_at", "2015-04-02 02:37:16.735622"], ["updated_at", "2015-04-02 02:37:16.735622"]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/todo_lists/4
+Completed 302 Found in 11ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/todo_lists/4" for 127.0.0.1 at 2015-04-01 19:37:16 -0700
+Processing by TodoListsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mTodoList Load (0.2ms)[0m  SELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered todo_lists/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 43.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-04-01 19:37:16 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-01 19:37:16 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-01 19:37:16 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-01 19:37:16 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-01 19:37:16 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-01 19:37:16 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-04-01 19:37:16 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-04-01 19:37:16 -0700
+
+
+Started GET "/todo_lists/4/edit" for 127.0.0.1 at 2015-04-01 19:37:19 -0700
+Processing by TodoListsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTodoList Load (0.1ms)[0m  [1mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered todo_lists/_form.html.erb (1.6ms)
+  Rendered todo_lists/edit.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-04-01 19:37:23 -0700
+Processing by TodoListsController#index as HTML
+  [1m[35mTodoList Load (0.1ms)[0m  SELECT "todo_lists".* FROM "todo_lists"
+  Rendered todo_lists/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/todo_lists/4" for 127.0.0.1 at 2015-04-01 19:37:27 -0700
+Processing by TodoListsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"N2jcD06JZyOm66OV5hSv442H8S4R1iqAO8v45bHJie1t0krU4Eb9tfvtvqnj7OJFfLmxuNYvpprb9dxnQCnGFQ==", "id"=>"4"}
+  [1m[36mTodoList Load (0.1ms)[0m  [1mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "todo_lists" WHERE "todo_lists"."id" = ?[0m  [["id", 4]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/todo_lists
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/todo_lists" for 127.0.0.1 at 2015-04-01 19:37:27 -0700
+Processing by TodoListsController#index as HTML
+  [1m[36mTodoList Load (0.1ms)[0m  [1mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds-5d69d070b36cecd918685aa73634be62.css?body=1" for 127.0.0.1 at 2015-04-01 19:37:27 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-01 19:37:27 -0700
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-01 19:37:27 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-01 19:37:27 -0700
+
+
+Started GET "/assets/application-c25638b96748cf06cc267da250d3d5b3.css?body=1" for 127.0.0.1 at 2015-04-01 19:37:27 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-01 19:37:27 -0700
+
+
+Started GET "/assets/todo_lists-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-01 19:37:27 -0700
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-04-01 19:37:27 -0700
+
+
+Started GET "/" for ::1 at 2015-04-03 12:25:53 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TodoListsController#index as HTML
+  [1m[35mTodoList Load (0.2ms)[0m  SELECT "todo_lists".* FROM "todo_lists"
+  Rendered todo_lists/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 92ms (Views: 79.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/todo_lists-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-03 12:25:53 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTodoItems (20150403193030)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTodoItems (20150403193030)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTodoItems (20150403193030)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTodoItems (20150403193030)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
